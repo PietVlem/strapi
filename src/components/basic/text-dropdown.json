@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_basic_text_dropdowns",
+  "info": {
+    "displayName": "Text-dropdown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dropdown": {
+      "type": "enumeration",
+      "enum": [
+        "bad",
+        "medium",
+        "good"
+      ]
+    }
+  }
+}

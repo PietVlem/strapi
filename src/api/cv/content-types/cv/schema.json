@@ -12,9 +12,53 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "awards": {
+      "displayName": "Awards",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.awards"
+    },
     "job_experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.awards"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.awards"
+    },
+    "bio": {
       "type": "richtext",
       "required": true
+    },
+    "profile_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "languages": {
+      "displayName": "Text-dropdown",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.text-dropdown"
     }
   }
 }

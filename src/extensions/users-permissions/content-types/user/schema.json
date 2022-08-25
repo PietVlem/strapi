@@ -63,10 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "Bio": {
-      "type": "richtext",
-      "required": true
-    },
     "cv": {
       "type": "relation",
       "relation": "oneToOne",
